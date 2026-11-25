@@ -109,3 +109,8 @@ KyokkouPT 不预设站点形态：站点名、导航、分区与分类、分区�
 ## 维护者
 
 [ImJingLan](https://github.com/ImJingLan) - **蜂巢 @xihu** — KyokkouPT 的发起人与维护者，负责整体设计、后端与前端实现、版本发布。
+
+## 许可证
+
+- 后端 [GPL-3.0-or-later](https://github.com/KyokkouPT/backend/blob/main/LICENSE)：可商用、可修改；分发修改版时需按 GPL 提供源码。
+- 前端 [Apache-2.0](https://github.com/KyokkouPT/frontend/blob/main/LICENSE)：可商用、可修改、可闭源分发，需保留版权与归属声明。
