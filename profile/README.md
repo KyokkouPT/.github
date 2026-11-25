@@ -138,3 +138,7 @@ Windows PowerShell 中用 `Copy-Item` 代替 `cp`。`pnpm seed` 会写入演示�
 ## 状态
 
 0.1.0，仍在开发中。账号、目录、上传审核、Tracker、H&R、魔力值、邀请、求种、考核、等级与站务流程已可用，接口与数据结构仍可能调整。
+
+## 维护者
+
+**蜂巢 [@xihu](https://github.com/ImJingLan)** — KyokkouPT 的发起人与维护者，负责整体设计、后端与前端实现、版本发布。
