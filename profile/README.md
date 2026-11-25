@@ -106,39 +106,6 @@ KyokkouPT 不预设站点形态：站点名、导航、分区与分类、分区�
 
 界面提供明暗两套主题，桌面与移动端都可完整操作。
 
-## 运行
-
-- Node.js 24+ 与 pnpm
-- 数据库：SQLite（默认，单实例）、MySQL 8、MariaDB 11、PostgreSQL 16
-- 本地开发前后端直连；生产由 Nginx 反向代理
-
-### 快速开始
-
-```bash
-# 后端
-git clone https://github.com/KyokkouPT/backend.git
-cd backend
-pnpm install
-cp .env.development.example .env
-pnpm migrate && pnpm seed
-pnpm dev            # http://127.0.0.1:31001
-
-# 前端（另开一个终端）
-git clone https://github.com/KyokkouPT/frontend.git
-cd frontend
-pnpm install
-cp .env.development.example .env
-pnpm dev            # http://127.0.0.1:31002
-```
-
-打开 <http://127.0.0.1:31002> 即可访问。
-
-Windows PowerShell 中用 `Copy-Item` 代替 `cp`。`pnpm seed` 会写入演示分区、种子与账号，并把实例标记为已安装；正式部署跳过 seed，改用 `/setup` 向导创建站点与第一个管理员。
-
-## 状态
-
-0.1.0，仍在开发中。账号、目录、上传审核、Tracker、H&R、魔力值、邀请、求种、考核、等级与站务流程已可用，接口与数据结构仍可能调整。
-
 ## 维护者
 
-**蜂巢 [@xihu](https://github.com/ImJingLan)** — KyokkouPT 的发起人与维护者，负责整体设计、后端与前端实现、版本发布。
+[ImJingLan](https://github.com/ImJingLan) - **蜂巢 @xihu** — KyokkouPT 的发起人与维护者，负责整体设计、后端与前端实现、版本发布。
